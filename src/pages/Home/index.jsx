@@ -30,7 +30,7 @@ export function Home() {
     <button type="button" onClick={handleAddStudent}>Adicionar</button>
 
     {
-      students.map(student => <Card name={student.name} time={student.time}/>)
+      students.map(student => <Card name={student.name} time={student.time} key={student.time}/>)
     }
     </div>
   )
