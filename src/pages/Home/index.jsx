@@ -23,7 +23,13 @@ export function Home() {
 
   return (
     <div className='container'>
+    <header>
     <h1>Lista de presença</h1>
+    <div>
+      <strong>Silas Justino</strong>
+      <img src="https://github.com/silasjustino.png" alt="github-profile" />
+    </div>
+    </header>
     <input type="text" placeholder="Digite o nome..."
     onChange={e => setStudentName(e.target.value)}
     />
